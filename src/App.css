@@ -1,13 +1,14 @@
 body {
   margin: 0;
-  font-family: arial, helvetica;
-  font-size: large;
+  font-family: "Poppins", sans-serif;
 }
 
 code {
-  font-family: arial, helvetica;
+  font-family: "Poppins", sans-serif;
 }
-
+nav {
+  font-family: "Poppins", sans-serif;
+}
 /* main front section  */
 .Main_section {
   background-image: url("./assets/Images/header_img.jpg");
@@ -19,7 +20,7 @@ code {
 }
 
 /* 
-Counter section  */
+  Counter section  */
 .counter {
   background-image: url("./assets/Images/counter.jpg");
   background-repeat: no-repeat, repeat;
@@ -32,12 +33,15 @@ Counter section  */
 /* Pricing section  */
 .Ul-danger li {
   list-style-image: url("./assets/Images/checkmark_red.png");
+  margin-top: 1rem;
 }
 .Ul-primary li {
   list-style-image: url("./assets/Images/checkmark_blue.png");
+  margin-top: 1rem;
 }
 .Ul-success li {
   list-style-image: url("./assets/Images/checkmark_green.png");
+  margin-top: 1rem;
 }
 .card li {
   font-size: larger;
@@ -45,19 +49,26 @@ Counter section  */
 /* package-include  section  */
 .bg-includes {
   background-image: url("./assets/Images/package_bg.jpg");
+  background-repeat: no-repeat, repeat;
+  background-size: cover;
 }
 
 /* features  */
 .features-list {
   list-style: none;
+  line-height: 4.1rem;
 }
-ul.features li {
-  color: #000000;
+.features-list li {
+  padding-left: 2rem;
+  color: #323232;
 }
 /* getvalue section  css  */
-.Get-Value li {
+.add_value li {
   font-size: larger;
   font-weight: bold;
+}
+.sec_Value li {
+  display: inline;
 }
 
 .Get-Value p {
@@ -67,7 +78,6 @@ ul.features li {
 }
 .security-list {
   display: inline-block;
-  list-style-type: disc;
 }
 .security-list li {
   display: inline-block;
@@ -78,9 +88,25 @@ ul.features li {
   background-repeat: no-repeat, repeat;
   background-size: cover;
   background-color: #cccccc; /* Used if the image is unavailable */
-  height: 70vh; /* You must set a specified height */
+  height: 85vh;
   background-position: center; /* Center the image */
 }
-i .bi {
-  cursor: pointer;
+.corner-radius {
+  border-radius: 25px;
+}
+.Button-radius {
+  border-radius: 8px;
+}
+.Bottom-radius {
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+.Top-radius {
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+.quote {
+}
+a:link {
+  text-decoration: none;
 }
